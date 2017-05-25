@@ -142,7 +142,7 @@ $(document).on('click', '#archived', function (e) {
   advanceTask(task);
 });
 
-
+localStorage.setItem('session', JSON.stringify(session));
 
 });
 
